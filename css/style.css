@@ -1,0 +1,257 @@
+@font-face {
+    font-family:Impact;
+    src: url(../fonts/impact.ttf);
+    font-weight: bold;
+  
+}
+@font-face {
+    font-family:Dubai;
+    src: url(../fonts/Dubai-Bold.ttf), 
+        url(../fonts/Dubai-Light.ttf),
+        url(../fonts/Dubai-Medium.ttf),
+        url(../fonts/Dubai-Regular.ttf); 
+        font-weight: normal;
+}
+@font-face {
+    font-family:Duera;
+    src: url(../fonts/Duera-CondBold-PERSONAL.ttf), 
+        url(../fonts/Duera-CondLigh-PERSONAL.ttf),
+        url(../fonts/Duera-CondMedi-PERSONAL.ttf),
+        url(../fonts/Duera-CondThin-PERSONAL.ttf),
+        url(../fonts/Duera-ExpaBlac-PERSONAL.ttf),
+        url(../fonts/Duera-ExpaMedi-PERSONAL.ttf),
+        url(../fonts/Duera-NormBlac-PERSONAL.ttf),
+        url(../fonts/Duera-NormLigh-PERSONAL.ttf),
+        url(../fonts/Duera-NormBold-PERSONAL.ttf),
+        url(../fonts/Duera-NormMedi-PERSONAL.ttf),
+        url(../fonts/Duera-NormThin-PERSONAL.ttf);
+        font-weight: normal;
+
+       
+}
+
+body {
+    font-family:Dubai;
+    font-weight: 100;
+
+
+
+}
+/* header area start from here   */
+.active { 
+    font-weight:400;
+    font-family: "Impact";
+    letter-spacing: 1px;
+}
+#main {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+nav {
+    background-color: rgb(6 6 6)!important;
+    margin-bottom: 50px !important;
+
+}
+.navbar-brand img {
+    width: 100px !important;
+    height: 70px !important;
+  }
+
+ul li a {
+    color: #fff !important;
+    margin-left: 10px;
+    cursor: pointer;
+ 
+}
+.hrArea {
+    width: 70px;
+    height: 3px;
+    margin-top: 19px !important;
+    margin-left: 10px !important;
+    margin-right: 5px !important;
+}
+hr {
+    height: 2px !important;
+    background-color:white !important;
+    color: white !important;
+}   
+
+/* header area end from here   */
+
+.heroArea {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.heroArea h4 {
+    font-size: 50px;
+color: #ffffff;
+font-family: "Impact";
+text-align: center;
+margin-top: 100px;
+}
+
+.p1 {
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 100 !important;
+    text-align: center;
+    margin-top: 30px;
+}
+.p2 {
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: normal !important;
+    text-align: center;
+    margin-top: 30px;
+    width: 92%;
+    text-align: center;
+    margin: auto;
+}
+/* 
+contact area start from here  */
+
+
+.form-control:focus {
+    color: #fff;
+    /* background-color: #fff; */
+    /* border-color: #86b7fe; */
+    outline: 0;
+    box-shadow: 0 0 0 
+}
+
+.form-control {
+    display: block;
+    width: 60%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: black !important;
+    background-clip: padding-box;
+    border-top:none !important; 
+    border-left:none !important; 
+    border-right:none !important; 
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: none !important;
+ 
+}
+.contact {
+    width: 60%;
+    margin:90px auto !important;
+}
+.SubmitBtn {
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #c64917;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Impact";
+
+}
+
+
+/* footer area design  */
+footer {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 25px;
+
+}
+footer p{
+    font-size: 12px;
+    color: #707070;
+    font-weight: 300;
+    text-align: center !important;
+}
+footer a {
+    color: #707070 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ContactArea {
+    display: flex;
+}
+.ContactArea button {
+    text-transform: uppercase;
+}
+.modal-body {
+    text-transform: capitalize;
+}
+@media all and (max-width:767px){
+    .heroArea {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+      }
+      .heroArea h4 {
+        font-size: 43px;
+        color: #ffffff;
+        font-family: "Impact";
+        text-align: center;
+        margin-top: 100px;
+      }
+      .p2 {
+        font-size: 18px;
+        line-height: 34px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 30px;
+        width: 92%;
+        text-align: center;
+        margin: auto;
+      }
+      .p1 {
+        font-size: 18px;
+   
+      }
+      .ContactArea {
+        display: block;
+    }
+    .ContactArea input{
+        margin-bottom: 30px;
+    }
+    .form-control {
+        display: block;
+        width: 98%;
+    }
+    .SubmitBtn {
+        width: 250px;
+        height: 55px;
+        
+      }
+}
+
+
+@media all and (max-width:493px){
+    .SubmitBtn {
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding:0px 30px;
+      }
+      .form-control {
+        display: block;
+        width: 100%;
+      }      
+}
+
+@media all and (max-width:370px){
+    .SubmitBtn {
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding:0px 20px;
+        font-size: 25px;
+      } 
+}
